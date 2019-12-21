@@ -1,4 +1,5 @@
 {
+    "name": "webdriverio-demo",
     "scripts": {
         "postinstall": "./node_modules/.bin/selenium-standalone install",
         "test": "wdio wdio.conf.js"
