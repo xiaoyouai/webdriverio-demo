@@ -3,7 +3,7 @@
     "scripts": {
         "postinstall": "./node_modules/.bin/selenium-standalone install",
         "test": "wdio wdio.conf.js",
-        "allure": "allure generate allure-results && allure open"
+        "allure": "allure generate allure-results -clean && allure open"
     },
     "devDependencies": {
         "allure-commandline": "^2.13.0",
