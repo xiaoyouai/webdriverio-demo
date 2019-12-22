@@ -12,4 +12,10 @@ describe("测试1", () => {
 
     expect(val).equal("LEFTCLICK");
   });
+  it("test2", () => {
+    expect(2).equal(3); //上面是正式的测试，下面就随手写了
+  });
+  it("test3", () => {
+    expect(3).equal(3);
+  });
 });

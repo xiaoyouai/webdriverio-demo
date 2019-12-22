@@ -2,11 +2,14 @@
     "name": "webdriverio-demo",
     "scripts": {
         "postinstall": "./node_modules/.bin/selenium-standalone install",
-        "test": "wdio wdio.conf.js"
+        "test": "wdio wdio.conf.js",
+        "allure": "allure generate allure-results && allure open"
     },
     "devDependencies": {
+        "allure-commandline": "^2.13.0",
         "chai": "^4.2.0",
         "selenium-standalone": "^6.16.0",
+        "wdio-allure-reporter": "^0.8.3",
         "wdio-mocha-framework": "^0.6.4",
         "wdio-selenium-standalone-service": "^0.0.12",
         "webdriverio": "^4.14.1"
