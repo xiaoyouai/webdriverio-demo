@@ -1,3 +1,3 @@
-browser.addCommand("openbaidu", function() {
-  browser.url("http://www.baidu.com");
+browser.addCommand("openURL", function(url) {
+  browser.url(url);
 });
