@@ -19,6 +19,7 @@ exports.config = {
             outputDir: "allure-results"
         }
     },
+    // services: ["selenium-standalone"],//暂时注释
     framework: "mocha", //采用什么测试框架
     mochaOpts: {
         ui: "bdd", //
